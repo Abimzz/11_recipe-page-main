@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Stone-100: hsl(30, 54%, 90%);
+    --Stone-150: hsl(30, 18%, 87%);
+    --Stone-600: hsl(30, 10%, 34%);
+    --Stone-900: hsl(24, 5%, 18%);
+    --Brown-800: hsl(14, 45%, 36%);
+    --Rose-800: hsl(332, 51%, 32%);
+    --Rose-50: hsl(330, 100%, 98%);
+}
+
+body{
+    min-height: 100vh;
+    margin: 0;
+    color: var(--Stone-600);
+    font-family: "Outfit", sans-serif;
+    background-color: var(--Rose-50);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-position: inside;
+}
+
+@media (min-width:480px){
+ body{
+    margin: 2rem;
+ }   
+}
+
+span{
+    font-weight: 700;
+}
+
+
+.card{
+    max-width: 725px;
+    background-color: var(--White);
+    border-radius: 0.5rem;
+}
+
+.card-info{
+    padding: 1.5rem;
+    padding-top: 0;
+}
+
+@media (min-width:480px){
+    .card{
+        padding: 1.5rem;
+    }   
+
+    .card-info{
+        padding: 0;
+    }
+}
+
+.section{
+    margin: 1.5rem 0;
+}
+
+.sub-heading{
+    color: var(--Brown-800);
+    font-weight: 400;
+    font-family: "Young Serif", serif;
+}
+
+.recipe-img{
+    max-width: 100%;
+}
+
+@media (min-width:480px){
+   .recipe-img{
+    border-radius: 0.5rem;
+   } 
+}
+
+.recipe-name{
+    color: var(--Stone-900);
+    font-size: 2.3rem;
+    font-weight: 400;
+    font-family: "Young Serif", serif;
+}
+
+.prep{
+    padding: 1.5rem;
+    background-color: var(--Rose-50);
+    border-radius: 0.5rem;
+}
+
+.prep h3{
+    color: var(--Rose-800);
+    font-weight: 700;
+}
+
+.prep-info li{
+    padding-top: 1rem;
+}
+
+
+.items-list li{
+    padding-top: 1rem;
+}
+
+
+.how_to-list li{
+    padding-top: 1rem;
+}
+
+.break-down .sub-heading{
+    margin-bottom: 1rem;
+}
+
+.break-down p{
+    margin-bottom: 1rem;
+}
+.break-down span{
+    color: var(--Brown-800);
+}
+
+.break-down-list{
+    width: 100%;
+}
+.break-down td {
+    padding: 8px;
+    padding-left: 1rem;
+    border-bottom: 1px solid var(--Stone-100);
+}
