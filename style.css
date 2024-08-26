@@ -39,6 +39,11 @@ span{
     font-weight: 700;
 }
 
+li::marker{
+    font-weight: 700;
+    color: var(--Brown-800);
+}
+
 
 .card{
     max-width: 725px;
